@@ -7,7 +7,7 @@ ENTRYPOINT ["dotnet", "SimpleTracker.dll"]
 
 ENV DISCORD_WEB_HOOK=https://discord.com/api/webhooks/...  \
         ARENA_TYPE=SQUAD \
-        ALLY_CODES_URL=http://rotbot.eu/sniper/ac-577794467709583360-squad.json  \
-        CUSTOM_MESSAGE_STATUS="**\[%PLAYER_NAME%\](\<https://swgoh.gg/p/%ALLY_CODE%\>/) is at %CURRENT_RANK% \<:crystals:845586958977073172\> %TIME_TO_PO%**" \
-        CUSTOM_MESSAGE_CLIMB="\<:b_up:845586958498398209\> **\[%PLAYER_NAME%\](\<https://swgoh.gg/p/%ALLY_CODE%\>/) %PREVIOUS_RANK% \<:r_up:845586960314794024\> %CURRENT_RANK% \<:crystals:845586958977073172\> %TIME_TO_PO%**" \
-        CUSTOM_MESSAGE_DROP="\<:b_down:845586958859632640\> **\[%PLAYER_NAME%\](\<https://swgoh.gg/p/%ALLY_CODE%\>/) %CURRENT_RANK% \<:l_down:845586959056896001\> %PREVIOUS_RANK% \<:crystals:845586958977073172\> %TIME_TO_PO%**" \
+        ALLY_CODES_URL=https://gist.github.com/Mryavka/e3ed0883fc6194af5320f219efe68eb2/raw \
+        CUSTOM_MESSAGE_STATUS="**\[%PLAYER_NAME%\](\<https://swgoh.gg/p/%ALLY_CODE%/\>) is at %CURRENT_RANK% \<:crystals:845586958977073172\> %TIME_TO_PO%**" \
+        CUSTOM_MESSAGE_CLIMB="\<:b_up:845586958498398209\> **\[%PLAYER_NAME%\](\<https://swgoh.gg/p/%ALLY_CODE%/\>) %PREVIOUS_RANK% \<:r_up:845586960314794024\> %CURRENT_RANK% \<:crystals:845586958977073172\> %TIME_TO_PO%**" \
+        CUSTOM_MESSAGE_DROP="\<:b_down:845586958859632640\> **\[%PLAYER_NAME%\](\<https://swgoh.gg/p/%ALLY_CODE%/\>) %CURRENT_RANK% \<:l_down:845586959056896001\> %PREVIOUS_RANK% \<:crystals:845586958977073172\> %TIME_TO_PO%**" \
