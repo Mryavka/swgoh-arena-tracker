@@ -1,1 +1,0 @@
-worker dotnet ./SimpleTracker.dll
